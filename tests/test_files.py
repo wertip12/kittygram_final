@@ -4,6 +4,7 @@ from typing import Union
 import yaml
 
 
+
 def test_infra_files_exist(nginx_dir_info: tuple[Path, str],
                            expected_nginx_files: set[str]):
     path, dir_name = nginx_dir_info
